@@ -1,0 +1,15 @@
+{   
+    "codeintel_language_settings": 
+    {
+     "Python": {
+         "python":"C:/Softwaredevkit/python27/python.exe",
+         "pythonExtraPaths": ["C:/Softwaredevkit/python27",
+         						"C:/Softwaredevkit/python27/DLLs",
+         						"C:/Softwaredevkit/python27/Lib",
+         						"C:/Softwaredevkit/python27/Lib/lib-tk",
+         						"C:/Softwaredevkit/python27/Lib/site-packages",
+         						"C:/Softwaredevkit/python27/Scripts"
+         					]
+			    }
+    }
+}

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+"""
+Created on ${1:mouths} ${2:data}, ${3:year}
+
+${4:filename}: ${5:interpret}
+
+Input:     ${5:input_var}: ${6:var_}
+            
+Output:    ${6:Output}
+
+@author:    moonclearner
+"""
+${7}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>author:</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

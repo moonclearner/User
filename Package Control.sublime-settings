@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"AutoFileName",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"LaTeXTools",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"Matlab Completions",
+		"MIT_Alloy",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PackageResourceViewer",
+		"Python PEP8 Autoformat",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"SyncedSideBar",
+		"Virtualenv"
+	]
+}

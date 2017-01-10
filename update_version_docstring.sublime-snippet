@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+"""
+Version:    ${1:version number}
+Updated on ${2:mouths} ${3:data}, ${4:year}
+
+@Update_author:    ${5:moonclearner}
+"""
+${6}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>update_version:</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

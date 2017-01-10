@@ -1,0 +1,84 @@
+{
+"server_host": "0.0.0.0",
+//开启预览服务器，ip地址是这个 ，链接同一网段之后，输入该IP可以预览  这个IP要绑定本机IP  不然的话打开不了浏览器
+//把 server_host 设成 0.0.0.0，这样本机 IP 改变时不用修改设置文件，只需在其他电脑上将 URL 中的 IP 为新的 IP 即可
+//"browser_command": ["open", "-a", "Google Chrome", "{url}"],
+//预览的浏览器设为google chrome
+
+//"html_template_name": "Evolution Yellow",
+//预览的模板设置为Github
+
+   
+"browser_command":  [],
+
+"server_port": 35352,
+
+
+"mathjax_enabled": true,
+//数学公式显示laTeX
+
+"html_template_name": "github-export",
+
+// "renderer_options-MarkdownRenderer": {
+// "extensions": ["tables", "fenced_code", "codehilite","extra", "codehilite", "toc", "strikeout", "smarty", "subscript", "superscript"]
+// }
+"ignored_renderers": [""],
+
+"renderer_options-MarkdownRenderer": {
+        "extensions": ["tables", "fenced_code", "codehilite","toc","extra"]
+    }
+
+//Markdown 渲染扩展选项
+
+//attr_list: 定义 HTML 标签属性，基本用途是实现篇幅较长的文档内的随意跳转。
+//如果你网上查过相关资料的话，会发现搜索结果中的实现方式比较繁琐和 dirty.
+//  ### 想要跳转到这里？ {#jumpid}
+//  从页面的任何地方跳转到 [以上位置](#jumpid "跳转到'想要跳转到这里？'")
+
+
+//footnotes: 文档脚注 脚注来标记参考文档的网址。
+//  Footnotes[^1] have a label and content.
+//  [^1]: This is a footnote content.
+
+// codehilite: 代码块语法高亮支持
+// 
+// toc: 文档目录
+// [toc]
+// 
+// 其它：
+
+// strikeout 删除线 - This is deleted text.
+
+// superscript 上标 - 2^10^ = 1024  //经过测试不能使用
+
+// subscript: 下标 - This is water: H~2~O   //经过测试不能使用
+
+    // "renderer_options-MarkdownRenderer": {
+    //     // Valid extensions:
+    //     // - OFFICIAL (Python Markdown) -
+    //     //   "extra": Combines ["abbr", "attr_list", "def_list", "fenced_code", "footnotes", "tables", "smart_strong"]
+    //     //            For PHP Markdown Extra(http://michelf.ca/projects/php-markdown/extra/)
+    //     //   "abbr": http://packages.python.org/Markdown/extensions/abbreviations.html
+    //     //   "attr_list": http://packages.python.org/Markdown/extensions/attr_list.html
+    //     //   "def_list": http://packages.python.org/Markdown/extensions/definition_lists.html
+    //     //   "fenced_code": http://packages.python.org/Markdown/extensions/fenced_code_blocks.html
+    //     //   "footnotes": http://packages.python.org/Markdown/extensions/footnotes.html
+    //     //   "tables": http://packages.python.org/Markdown/extensions/tables.html
+    //     //   "smart_strong": http://packages.python.org/Markdown/extensions/smart_strong.html
+    //     //   "codehilite": http://packages.python.org/Markdown/extensions/code_hilite.html
+    //     //   "meta": http://packages.python.org/Markdown/extensions/meta_data.html
+    //     //   "toc": http://packages.python.org/Markdown/extensions/toc.html
+    //     //   "nl2br": http://packages.python.org/Markdown/extensions/nl2br.html
+    //     // - 3RD PARTY -
+    //     //   "strikeout": Strikeout extension syntax - `This ~~is deleted text.~~`
+    //     //   "subscript": Subscript extension syntax - `This is water: H~2~O`
+    //     //   "superscript": Superscript extension syntax 0 `2^10^ = 1024`
+    //     //   "smarty" or "smartypants": Python-Markdown extension using smartypants to emit
+    //     //                   typographically nicer ("curly") quotes, proper
+    //     //                   ("em" and "en") dashes, etc.
+    //     //                   See: http://daringfireball.net/projects/smartypants/
+    //     //                   And: https://github.com/waylan/Python-Markdown/blob/master/docs/extensions/smarty.txt
+    //     "extensions": ["tables", "strikeout", "fenced_code", "attr_list","codehilite","extra", "codehilite", "toc", "strikeout", "smarty", "subscript", "superscript"]
+    // }
+
+}

@@ -1,0 +1,21 @@
+{
+
+//-nodesktop表示不加载GUI界面   
+//-nosplash表示不加载启动界面
+//-r表示运行Matlab命令行
+    "cmd": ["E:/MATLAB/R2010b/bin/matlab.exe", "-nodesktop", "-nosplash", "-r", "\"run('$file')\""],
+    "selector": "source.m",
+    "working_dir": "${project_path:${folder}}"
+
+ 
+
+
+//ubuntu sublime text3 matlab build --configure
+//
+//     "cmd": ["gnome-terminal -x bash -c \"matlab -nosplash -nodesktop -r ${file_base_name}; exec bash\""],
+//     "selector":"source.m",
+//     "shell":"true",
+
+
+
+}

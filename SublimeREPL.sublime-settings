@@ -1,0 +1,12 @@
+{
+//default configure path is worry
+"default_extend_env": {"PATH":"C:\\Softwaredevkit\\python27\\"},
+// "default_extend_env": {"PATH":"E:\\dev_kit\\python\\vir_py3\\vir_py3_env\\Scripts"},
+
+"python_virtualenv_paths": [
+	"E:\\dev_kit\\python\\vir_py3\\vir_py3_env"
+	],
+
+
+
+}
